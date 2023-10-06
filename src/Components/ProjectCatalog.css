@@ -1,0 +1,98 @@
+.project_catalog {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;   
+    top: 0px;
+    left: 0;
+    background-color: #121728;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+    justify-content: center;
+    padding-left: 10%;
+z-index: 100;
+
+}
+.project_catalog_main {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.project_catalog_main::-webkit-scrollbar {
+    width: 0.1em;
+    }   
+   
+.project_catalog_main::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+.project_catalog_main::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+.pc_goback {
+    margin-left: 35px;
+    font-size: 1.2rem;
+    color: #75ecbe;
+
+}
+.pc_goback:hover {
+    color: #75ecbe;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.pc_goback:hover .pc_goto {
+    transform: translateY(-10px) rotate(180deg);
+}
+
+.pc_title {
+    margin-left: 40px;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+.pc_goto {
+    width: 12px;
+    margin: 10px;
+    rotate: 180deg;
+    transition: 0.2s ease-in-out transform;
+    transform: translateY(-10px);
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .project_catalog {
+        position: absolute;
+    
+        width: 100%;
+        height: fit-content;   
+        top: 0px;
+        left: 0;
+        background-color: #121728;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+        justify-content: center;
+        padding-left: 1%;
+        padding-bottom: 3000px;
+    
+    
+    }
+    .project_catalog_main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        justify-content: center;
+        overflow: hidden;
+    }
+  }

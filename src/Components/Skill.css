@@ -1,0 +1,53 @@
+.skill {
+    width: 120px;
+    height: 40px;
+    background-color: #1c2a38;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    color: #7fcdc1;
+    margin-bottom: 2px;
+
+}
+.skill2 {
+    width: 60px;
+    height: 20px;
+    font-size: 0.6rem;
+    background-color: #1c2a38;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    color: #7fcdc1;
+    margin-bottom: 2px;
+
+}
+
+.skill:hover {
+    border: 2px solid #7fcdc1;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .skill {
+        width: 110px;
+        height: 35px;
+        background-color: #1c2a38;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 5px;
+        color: #7fcdc1;
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+    
+
+    }
+  }

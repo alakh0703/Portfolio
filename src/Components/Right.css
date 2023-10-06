@@ -1,0 +1,175 @@
+
+.right {
+    height: 100vh;
+    overflow-y: scroll;
+    width: 50%;
+    padding-top: 1%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding-left: 10px;
+    z-index: 0  ;
+}
+.right2 {
+    height: 100vh;
+    overflow-y: scroll;
+    width: 50%;
+    padding-top: 1%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding-left: 10px;
+}
+.right_intro {
+    padding-top: 180px;
+    width: 100%;
+    padding-right: 35%;
+    padding-left: 20px;
+}
+.right_intro1 {
+    color: #97a2b5;
+}
+.right_projects {
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+.catalog{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 0.5px;
+    opacity: 0.5;
+}
+.right_contact {
+    width: 100%;
+    margin-bottom: 50px;
+    height: 600px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.right_skills_select {
+    color: black;
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 30px;
+    height: 40px; 
+    border: 2px solid #7fcdc1; 
+    border-radius: 5px; 
+    background-color: #fff; 
+    font-size: 16px; 
+    padding: 5px; 
+    outline: none;
+}
+
+.right_skills_select option {
+    color: black;
+    background-color: #fff;
+    font-size: 16px; 
+}
+
+.right_skills_select option:hover {
+    background-color: #3498db;
+    color: #fff; 
+}
+.reachme {
+    margin-left: 3%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+.reachme_tag {
+    margin-left: 3%;
+    margin-top: 10px;
+    margin-left: 3%;
+    color: #97a2b5;
+    margin-bottom: 20px;
+   
+
+}
+.catalog {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.catalog:hover .gotoIcon {
+    transform: translateX(5px);
+    rotate: -45deg;
+    transition: 0.2s ease-in-out transform;
+}
+
+.gotoIcon {
+    width: 15px;
+    margin-left: 15px;
+    transform: translateY(2px);
+}
+.right_about_title {
+    margin-top: 20px;
+    margin-left: 20px;
+ font-size: 1.2rem;
+    font-weight: 600;
+    display: none;
+}
+@media screen and (max-width: 1000px) {
+    .right {
+        width: 100%;
+        height: fit-content;
+        overflow-y: scroll;
+        padding-top: 0%;
+        overflow-x: hidden;
+        overflow: hidden;
+    }
+    
+.right_intro {
+    padding-top: 20px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.right_projects {
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+  
+.right_skills {
+    width: 100%;
+    height:fit-content;
+    margin-bottom: 50px;
+}
+.right_skills_select {
+    color: black;
+    width: 20%;
+    margin-left: 6%;
+    margin-top: 30px;
+    height: 40px; 
+    border: 2px solid #7fcdc1; 
+    border-radius: 5px; 
+    background-color: #fff; 
+    font-size: 16px; 
+    padding: 5px; 
+    outline: none;
+}
+.right2 {
+    height: fit-content;
+    overflow-y: scroll;
+    width: 100%;
+    padding-top: 1%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding-left: 10px;
+}
+.right_about_title {
+    margin-top: 20px;
+    margin-left: 20px;
+ font-size: 1.2rem;
+    font-weight: 600;
+    display: block;
+}
+  }

@@ -1,0 +1,18 @@
+.skill-sec {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding-right: 30%;
+    padding-left: 1%;
+}
+@media screen and (max-width: 1000px) {
+    .skill-sec {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        padding-right: 3%;
+        padding-left: 1%;
+    }
+  }
