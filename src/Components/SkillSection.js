@@ -95,7 +95,7 @@ function SkillSection(props) {
       skill: 'Firebase',
       type: ['back', 'full_stack','database','other']
     },{
-      skill: 'WebPack'.
+      skill: 'WebPack',
         type: ['other','full_stack']
     },
     {
