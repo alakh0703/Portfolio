@@ -130,7 +130,10 @@ function SkillSection(props) {
       skill: 'Scikit-learn',
       type: ['data_science']
     },
-   
+    {
+      skill: 'Stripe',
+      type: ['full_stack','back']
+    }
 
   ]
 
