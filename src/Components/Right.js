@@ -10,6 +10,7 @@ import cartImg from '../Images/cart-wallpaper.png'
 import chatImg from '../Images/chat-wallpaper.png'
 import Contact from './Contact';
 import gotoIcon from '../Images/arrow-32-128.png'
+import jotionImg from '../Images/temp.png'
 
 function Right(props) {
 
@@ -23,6 +24,14 @@ function Right(props) {
   }
 
   const [projects, setProjects] = React.useState([
+    {
+      id: 4,
+      title: "Jotion - a notion clone",
+      desc: "A clone of NOTIOn made by following tutorial of CodeWithAntonio",
+      tech: "Topics covered include: React, Nextjs, Tailwind, Convex, Clerk, etc",
+      img: jotionImg,
+      link: 'https://main--comfy-jelly-fb46bb.netlify.app/'
+    },
     {
       id:1,
       title:'Connect',
