@@ -27,7 +27,7 @@ function Right(props) {
     {
       id: 4,
       title: "Jotion - a notion clone",
-      desc: "A clone of NOTIOn made by following tutorial of CodeWithAntonio",
+      desc: "A clone of NOTION made by following tutorial of CodeWithAntonio",
       tech: "Topics covered include: React, Nextjs, Tailwind, Convex, Clerk, etc",
       img: jotionImg,
       link: 'https://main--comfy-jelly-fb46bb.netlify.app/'
