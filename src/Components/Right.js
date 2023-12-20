@@ -42,14 +42,7 @@ function Right(props) {
 
 
     },
-  {
-    id:2,
-    title:'Cart-Simulator',
-    desc: "A Simple web app that simulates a shopping cart with ability to add items, remove items and filter products",
-    tech: "Topics Covered include: React, React Hooks, Fake Product API, and more",
-    img: cartImg,
-    link: 'https://cart-simulator.vercel.app/'
-  },
+
 {
   id:3,
   title:'Chat-Breeze',
