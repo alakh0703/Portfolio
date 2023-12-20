@@ -11,6 +11,15 @@ function SkillSection(props) {
       type: ['front', 'full_stack']
     },
     {
+      skill: 'Nextjs',
+      type: ['front','full_stack']
+    },
+    {
+      skill: 'Clerk',
+      type: ['front','full_stack','back']
+    }
+    ,
+    {
       skill: 'Node',
       type: ['back', 'full_stack']
     },
