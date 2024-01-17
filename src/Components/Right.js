@@ -11,6 +11,7 @@ import chatImg from '../Images/chat-wallpaper.png'
 import Contact from './Contact';
 import gotoIcon from '../Images/arrow-32-128.png'
 import jotionImg from '../Images/temp.png'
+import syncImg from '../Images/sync.png"
 
 function Right(props) {
 
@@ -32,6 +33,14 @@ function Right(props) {
       img: jotionImg,
       link: 'https://main--comfy-jelly-fb46bb.netlify.app/'
     },
+     {
+      id: 5,
+      title: "SynchroNaut - A Project Mangement tool",
+      desc: "A project management tools with capability of chatting, collaborate between users, etc",
+      tech: "Topics covered include: React, CSS, Firebase, Nodejs, Expressjs, MongoDB, etc",
+      img: syncImg,
+      link: "https://synchronaut.vercel.app/"
+    },
     {
       id:1,
       title:'Connect',
@@ -41,16 +50,9 @@ function Right(props) {
       link: 'https://connect-blond-chi.vercel.app/'
 
 
-    },
+    }
 
-{
-  id:3,
-  title:'Chat-Breeze',
-  desc: "A simple chat app with ability to create a room and chat with friends",
-  tech: "Topics Covered include: React, React Hooks, Socket.io, and more",
-  img: chatImg,
-  link: 'https://chat-breeze.vercel.app/'
-}])
+])
 
 
   const chanegSkillType = (e) => {
