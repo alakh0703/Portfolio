@@ -7,6 +7,7 @@ import chatImg from '../Images/chat-wallpaper.png'
 import Contact from './Contact';
 import gotoIcon from '../Images/arrow-34-128.png'
 import jotionImg from '../Images/temp.png'
+import syncImg from "../Images/sync.png"
 function ProjectCatalog(props) {
   const projlogRef = useRef(null);
 
@@ -24,6 +25,14 @@ function ProjectCatalog(props) {
       tech: "Topics covered include: React, Nextjs, Tailwind, Convex, Clerk, etc",
       img: jotionImg,
       link: 'https://main--comfy-jelly-fb46bb.netlify.app/'
+    },
+    {
+      id: 5,
+      title: "SynchroNaut - A Project Mangement tool",
+      desc: "A project management tools with capability of chatting, collaborate between users, etc",
+      tech: "Topics covered include: React, CSS, Firebase, Nodejs, Expressjs, MongoDB, etc",
+      img: syncImg,
+      link: "https://synchronaut.vercel.app/"
     },
     {
       id:1,
