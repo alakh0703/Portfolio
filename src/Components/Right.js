@@ -11,7 +11,7 @@ import chatImg from '../Images/chat-wallpaper.png'
 import Contact from './Contact';
 import gotoIcon from '../Images/arrow-32-128.png'
 import jotionImg from '../Images/temp.png'
-import syncImg from '../Images/sync.png"
+import syncImg from '../Images/sync.png'
 
 function Right(props) {
 
