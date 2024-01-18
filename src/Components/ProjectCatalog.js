@@ -8,6 +8,7 @@ import Contact from './Contact';
 import gotoIcon from '../Images/arrow-34-128.png'
 import jotionImg from '../Images/temp.png'
 import syncImg from "../Images/sync.png"
+import objImg from "../Images/objImg.omg"
 function ProjectCatalog(props) {
   const projlogRef = useRef(null);
 
@@ -52,6 +53,14 @@ function ProjectCatalog(props) {
     img: cartImg,
     link: 'https://cart-simulator.vercel.app/'
   },
+    {
+      id: 6,
+      title: 'Object Detection',
+      desc: 'A Nextjs app using external Transformer.js API to detect objects in pictures',
+      tech: 'Nextjs, Tailwind, Shadcn, Transformer.js',
+      img: objImg,
+      link: 'https://object-detection-green.vercel.app/'
+    },
 {
   id:3,
   title:'Chat-Breeze',
