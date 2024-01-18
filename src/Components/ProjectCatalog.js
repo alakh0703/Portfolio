@@ -59,7 +59,7 @@ function ProjectCatalog(props) {
       desc: 'A Nextjs app using external Transformer.js API to detect objects in pictures',
       tech: 'Nextjs, Tailwind, Shadcn, Transformer.js',
       img: objImg,
-      link: 'https://object-detection-green.vercel.app/'
+      link: 'https://leafy-banoffee-e59140.netlify.app/'
     },
 {
   id:3,
