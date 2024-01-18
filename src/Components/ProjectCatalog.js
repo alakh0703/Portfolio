@@ -8,7 +8,7 @@ import Contact from './Contact';
 import gotoIcon from '../Images/arrow-34-128.png'
 import jotionImg from '../Images/temp.png'
 import syncImg from "../Images/sync.png"
-import objImg from "../Images/objImg.omg"
+import objImg from "../Images/objImg.png"
 function ProjectCatalog(props) {
   const projlogRef = useRef(null);
 
